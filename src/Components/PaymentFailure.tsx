@@ -6,7 +6,7 @@ const PaymentFailure = () => {
   return (
     <div>
       <Header />
-      <div className="grid place-items-center h-full">
+      <div className="grid place-items-center h-full m-16">
         <img src={paymentfailure} alt="paymentfailure" />
         <div className="text-grayColor">Your transaction has been failed!</div>
         <div>
