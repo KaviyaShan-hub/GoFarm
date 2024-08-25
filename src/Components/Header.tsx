@@ -3,7 +3,7 @@ import profileImg from "../assets/profile.png";
 
 const Header = () => {
   return (
-    <div className="h-20 bg-white shadow-lg flex justify-around items-center">
+    <div className="h-16 bg-white shadow-lg flex justify-around items-center">
       <div className="flex space-x-10">
         <div className="text-gray-600">Logo</div>
         <div className="hidden lg:block lg:flex">
@@ -98,9 +98,6 @@ const Header = () => {
             stroke="currentColor"
           >
             <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
               d="M4 6h16M4 12h16M4 18h16"
             />
           </svg>

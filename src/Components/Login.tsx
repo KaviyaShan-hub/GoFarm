@@ -65,7 +65,9 @@ const Login: React.FC = () => {
     }
   };
 
-  const handleLogin = () => {};
+  const handleLogin = () => {
+    console.log("login")
+  };
 
   const handleKeepme = () => {
     setKeepme(true);
